@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Selvia Lovelin</title>
+
+  <!-- FONT & ICON -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="nav__content">
+    <div class="logo"><a href="#">Selvia</a></div>
+
+    <label for="check" class="checkbox">
+      <i class="ri-menu-line"></i>
+    </label>
+    <input type="checkbox" id="check">
+
+    <ul>
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HOME -->
+<section class="section" id="home">
+  <div class="section__container">
+    <div class="content" data-aos="fade-right">
+      <p class="subtitle">HELLO</p>
+      <h1 class="title">
+        Saya <span>Selvia Lovelin</span><br>
+        Teknik Informatika
+      </h1>
+      <p class="description">
+        Mahasiswa Teknik Informatika semester 5 dengan pengalaman
+        pengembangan sistem informasi berbasis web dan aktif dalam organisasi.
+      </p>
+
+      <div class="action__btns">
+        <a href="#projects" class="hire__me">View Project</a>
+        <a href="cv-selvia-lovelin.pdf" download class="portfolio">Download CV</a>
+      </div>
+    </div>
+
+    <div class="image" data-aos="fade-left">
+      <img src="assets/profile.jpg" alt="Selvia Lovelin">
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="section__container">
+    <div class="content" data-aos="fade-up">
+      <h2>About Me</h2>
+      <p class="description">
+      Saya Selvia Lovelin, mahasiswa Teknik Informatika yang memiliki minat pada pengembangan sistem informasi berbasis web. Saya terbiasa bekerja secara terstruktur, bekerja dalam tim, dan bertanggung jawab terhadap tugas yang diberikan. Memiliki pengalaman dalam pengembangan beberapa proyek website serta aktif dalam organisasi dan kepanitiaan, yang melatih kemampuan komunikasi, manajemen waktu, dan profesionalisme. Saya siap belajar, berkembang, dan berkontribusi dalam lingkungan kerja profesional.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
+  <div class="section__container">
+    <div class="content">
+      <h2 data-aos="fade-up">Projects</h2>
+
+      <!-- EDOTEL -->
+      <div class="project__card" data-aos="zoom-in">
+        <div class="project__header">
+          <h3>Sistem Informasi Edotel</h3>
+          <span class="badge fullstack">Full Stack</span>
+        </div>
+
+        <p class="project__role">
+          Project Manager & Full Stack Developer
+        </p>
+
+        <p class="project__desc">
+          Sistem informasi pengelolaan Edotel berbasis web untuk manajemen
+          data, reservasi, dan administrasi.
+        </p>
+
+        <ul class="project__features">
+          <li>Login & autentikasi admin</li>
+          <li>CRUD data kamar, fasilitas, dan reservasi</li>
+          <li>Dashboard admin</li>
+          <li>Database MySQL</li>
+        </ul>
+
+        <p class="project__tech">
+          <b>Tech Stack:</b> PHP, MySQL, HTML, CSS, JavaScript
+        </p>
+
+        <a href="https://edotelsuryalaya.my.id" target="_blank" class="project__btn">
+          View Website
+        </a>
+      </div>
+
+      <!-- PROFIL DESA -->
+      <div class="project__card" data-aos="zoom-in" data-aos-delay="100">
+        <div class="project__header">
+          <h3>Website Profil Desa</h3>
+          <span class="badge fullstack">Full Stack</span>
+        </div>
+
+        <p class="project__role">
+          Web Developer (Frontend & Backend)
+        </p>
+
+        <p class="project__desc">
+          Website resmi desa yang menampilkan profil, berita, dan informasi
+          publik yang dikelola melalui admin panel.
+        </p>
+
+        <ul class="project__features">
+          <li>Admin panel pengelolaan konten</li>
+          <li>CRUD berita & informasi desa</li>
+          <li>Konten dinamis berbasis database</li>
+        </ul>
+
+        <p class="project__tech">
+          <b>Tech Stack:</b> PHP, MySQL, HTML, CSS, JavaScript
+        </p>
+
+        <a href="https://desacikondang.id/" target="_blank" class="project__btn">
+          View Website
+        </a>
+      </div>
+
+      <!-- PETA BENCANA -->
+      <div class="project__card" data-aos="zoom-in" data-aos-delay="200">
+        <div class="project__header">
+          <h3>Web Peta Bencana</h3>
+          <span class="badge backend">Full Stack</span>
+        </div>
+
+        <p class="project__role">
+          Programmer
+        </p>
+
+        <p class="project__desc">
+          Sistem peta bencana berbasis web untuk pengelolaan dan visualisasi
+          data lokasi bencana.
+        </p>
+
+        <ul class="project__features">
+          <li>Manajemen data lokasi bencana</li>
+          <li>Integrasi data ke peta</li>
+          <li>Database bencana</li>
+        </ul>
+
+        <p class="project__tech">
+          <b>Tech Stack:</b> PHP, MySQL, JavaScript, HTML. CSS
+        </p>
+
+        <a href="https://petabencana.desacikondang.id/" target="_blank" class="project__btn">
+          View Website
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="section" id="gallery">
+  <div class="section__container">
+    <div class="content">
+      <h2 data-aos="fade-up">Dokumentasi Kegiatan</h2>
+
+      <div class="gallery">
+        <img src="assets/kegiatan1.jpg" data-aos="zoom-in">
+        <img src="assets/kegiatan2.jpg" data-aos="zoom-in" data-aos-delay="100">
+        <img src="assets/kegiatan3.jpg" data-aos="zoom-in" data-aos-delay="200">
+        <img src="assets/kegiatan4.jpg" data-aos="zoom-in" data-aos-delay="300">
+        <img src="assets/kegiatan5.jpg" data-aos="zoom-in" data-aos-delay="400">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="section__container">
+    <div class="content contact__content" data-aos="fade-up">
+      <h2>Contact</h2>
+      <p class="description">Silakan hubungi saya melalui:</p>
+
+      <div class="contact__box">
+
+        <a href="mailto:selviaalovelinn@gmail.com" class="contact__item">
+          <i class="ri-mail-line"></i>
+          <div>
+            <span>Email</span>
+            <p>selviaalovelinn@gmail.com</p>
+          </div>
+        </a>
+
+        <a href="tel:+6285603030491" class="contact__item">
+          <i class="ri-phone-line"></i>
+          <div>
+            <span>Phone</span>
+            <p>0856 0303 0491</p>
+          </div>
+        </a>
+
+        <a href="https://wa.me/6285603030491" target="_blank" class="contact__item">
+          <i class="ri-whatsapp-line"></i>
+          <div>
+            <span>WhatsApp</span>
+            <p>Chat via WhatsApp</p>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true,
+    easing: "ease-in-out"
+  });
+</script>
+
+<!-- ACTIVE MENU ON SCROLL + AUTO CLOSE -->
+<script>
+  const sections = document.querySelectorAll("section");
+  const navLinks = document.querySelectorAll("nav ul li a");
+  const checkbox = document.getElementById("check");
+
+  window.addEventListener("scroll", () => {
+    let current = "";
+
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 140;
+      const sectionHeight = section.clientHeight;
+      if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+        current = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach(link => {
+      link.classList.remove("active");
+      if (link.getAttribute("href") === "#" + current) {
+        link.classList.add("active");
+      }
+    });
+  });
+
+  navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+      checkbox.checked = false;
+    });
+  });
+</script>
+
+</body>
+</html>
