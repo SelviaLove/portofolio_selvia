@@ -430,6 +430,11 @@ h2 {
   background: var(--accent-soft);
 }
 
+.frontend {
+  color: #22577a;
+  background: #e8f3fb;
+}
+
 .project__btn {
   width: fit-content;
   min-height: 42px;
