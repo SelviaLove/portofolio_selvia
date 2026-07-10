@@ -411,6 +411,13 @@ h2 {
   line-height: 1.55;
 }
 
+.project__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1rem;
+}
+
 .badge {
   flex: 0 0 auto;
   padding: 0.36rem 0.72rem;
@@ -438,7 +445,6 @@ h2 {
 .project__btn {
   width: fit-content;
   min-height: 42px;
-  margin-top: 1rem;
   color: var(--primary-dark);
   background: transparent;
   border: 1px solid var(--primary-color);
@@ -449,6 +455,18 @@ h2 {
 .project__btn:hover {
   color: #fff;
   background: var(--primary-color);
+}
+
+.project__btn.secondary {
+  color: var(--text-medium);
+  border-color: var(--border-color);
+  background: var(--surface);
+}
+
+.project__btn.secondary:hover {
+  color: #fff;
+  border-color: var(--primary-dark);
+  background: var(--primary-dark);
 }
 
 .gallery {
@@ -665,6 +683,15 @@ h2 {
 
   .action__btns a {
     flex: 1 1 180px;
+  }
+
+  .project__actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .project__btn {
+    width: 100%;
   }
 
   .project__header {
