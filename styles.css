@@ -193,6 +193,11 @@ nav ul li a.active {
   box-shadow: var(--shadow-soft);
 }
 
+#about .description {
+  text-align: justify;
+  text-align-last: left;
+}
+
 .subtitle {
   display: inline-flex;
   align-items: center;
@@ -657,6 +662,10 @@ h2 {
   #about .content {
     padding: 1.45rem;
     border-radius: 18px;
+  }
+
+  #about .description {
+    text-align: left;
   }
 
   .title {
